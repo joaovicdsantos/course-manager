@@ -6,7 +6,7 @@ const app = express();
 var currentUser;
 
 var corsOptions = {
-  orgim: '/',
+  origin: '*',
   optionsSuccessStatus: 200
 }
 
